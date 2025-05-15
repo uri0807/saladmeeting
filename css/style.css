@@ -229,6 +229,13 @@ letter-spacing: -0.04em;
   border-bottom: solid 1px #D2ECBA;
 }
 
+@media only screen and (max-width: 768px) {
+  #company dl {
+    font-size: 13px;
+    
+  }
+}
+
 /* botom */
 .column-a {
   background-image: url(../images/bottom1.jpg);
@@ -271,12 +278,7 @@ letter-spacing: -0.04em;
 }
 
 
-@media only screen and (max-width: 768px) {
-  #company dl {
-    font-size: 13px;
-    
-  }
-}
+
 
 @media only screen and (max-width: 768px) {
   .column-a, .column-b, .column-c, .column-d {
